@@ -13,7 +13,6 @@ import { TransactionModule } from './transaction/transaction.module';
 import { BankModule } from './bank/bank.module';
 import { CityModule } from './city/city.module';
 
-
 @Module({
   imports: [
     // Import ConfigModule with global config. No need to import in other modules
